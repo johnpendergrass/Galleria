@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galleria</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Galleria</h1>
+	</header>
+
+	<div class="boxes">
+
+		<div class="smallbox">
+			   <img id="small0101" src="..\images\small0101.png"><!--		   
+			--><img id="small0102" src="..\images\small0102.png"><!--
+			--><img id="small0103" src="..\images\small0103.png"><!--
+			--><img id="small0104" src="..\images\small0104.png"><!--
+			--><img id="small0105" src="..\images\small0105.png">
+		</div>
+
+		<div class="bigbox">
+			<img id="big0101" src="..\images\big0101.png">
+			<img id="big0102" src="..\images\big0102.png">
+			<img id="big0103" src="..\images\big0103.png">
+			<img id="big0104" src="..\images\big0104.png">
+			<img id="big0105" src="..\images\big0105.png">
+		</div>
+
+	</div>
+
+<p>OK, was never able to nail this.... basically what the screen shows is a small version of an image above, actually divided into five slices.  You can see that cause when you hover over one of the slices it reduces -opacity- a bit.</p>
+
+<p>The large square below is actually five large squares, stacked on top on one another.  The idea was to have these be -0.0- opacity (ie. completely transparent) so you wouldn't see them at all when page initially loads.  I put them at -0.1- opacity for now, cause I wanted to see them on the page as I developed the page.  Later they would be set to opacity -0.0-</p>
+
+<p>Each of these five large images is a larger version of the small five slices above.</p>
+
+<p>What I wanted was when you -hover- over one of the small image slices, the corresponding large image would set opacity to -1.0-, making it visible.  So, as you hovered over different small slices, you would get different large squares showing.</p>
+
+<p>I thought this might be useful for an art gallery type page, where a small version of a painting (ie. Mona Lisa) would be shown, and as the user hovered over parts of it a more detailed version of it would appear next to it.</p>
+
+<p>Anyway, could not figure out how to have hovering over one element (small slices) could affect a different element (large squares opacity).  Apparently you can do this with pure css if the two items are in the same group (ie. div or something) or if they are siblings, but I didn't want to do that.  Still not convinced that it cannot be done in pure html/css.  Seems like it should - if a -hover- can affect a sibling, why not a different -id- object?  Don't want to do it in javascript yet, so am dropping for now.  02-06-2015</p>
+
+</body>

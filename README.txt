@@ -1,0 +1,1 @@
+02-06-2015 - FAIL - attempt to create a photo and/or painting gallery that would show hi-res versions of smaller thumbnails, using CSS3 -hover- and -opacity-.   Did not work.  Will revisit later.  See html file for more explanation.

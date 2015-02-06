@@ -1,0 +1,84 @@
+/* smallbox stuff below */
+
+.smallbox {
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px
+}
+
+#small0101:hover {
+	opacity: 0.5;
+}
+
+#small0102:hover {
+	opacity: 0.5;
+}
+
+#small0103:hover {
+	opacity: 0.5;
+}
+
+#small0104:hover {
+	opacity: 0.5;
+}
+
+#small0105:hover {
+	opacity: 0.5;
+}
+
+
+
+
+/* bigbox stuff below */
+
+/* opacity of all these squares will be set to 0.0 when I figure out how to 
+   do the 'hover over small stuff, affect large stuff' thing.  */
+
+.bigbox img {
+	position:  absolute;
+	left: 100px;
+	top: 500px;
+	opacity: 1.0;
+}
+
+
+#big0101 {
+	position:  absolute;
+	z-index: auto;
+	left: 100px;
+	top: 500px;
+	opacity: 0.1;
+}
+
+#big0102 {
+	position:  absolute;
+	z-index: 1;
+	left: 100px;
+	top: 500px;
+	opacity: 0.1;
+}
+
+#big0103 {
+	position:  absolute;
+	z-index: 2;
+	left: 100px;
+	top: 500px;
+	opacity: 0.1;
+}
+
+#big0104 {
+	position:  absolute;
+	z-index: 3;
+	left: 100px;
+	top: 500px;
+	opacity: 0.1;
+}
+
+#big0105 {
+	position:  absolute;
+	z-index: 4;
+	left: 100px;
+	top: 500px;
+	opacity: 0.1;
+}
